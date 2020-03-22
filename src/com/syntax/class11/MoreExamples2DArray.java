@@ -16,7 +16,12 @@ public class MoreExamples2DArray {
 			}System.out.println();
 		}
 //to make reverse;
-		for(int i=)
+		String reverse;
+		
+		for(int i=professions.length-1; i>=0;i--) {
+			reverse=reverse+professions.length.charAt();
+			
+		}
 	}
 
 }
