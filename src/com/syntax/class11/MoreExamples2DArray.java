@@ -16,12 +16,20 @@ public class MoreExamples2DArray {
 			}System.out.println();
 		}
 //to make reverse;
-		String reverse;
-		
-		for(int i=professions.length-1; i>=0;i--) {
-			reverse=reverse+professions.length.charAt();
-			
+		String str="Adile";
+		char[] array=str.toCharArray();
+		System.out.println("String length is "+array.length);
+		for(int i=array.length-1; i>=0;i--) {
+			System.out.print(array[i]);
 		}
+		
+		
+//		String reverse="";
+//		int length=professions.length;
+//		for(int i=length-1; i>=0;i--) {
+//			reverse=reverse+length.charAt(i);
+//			
+//		}System.out.println(reverse);
 	}
 
 }
