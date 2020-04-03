@@ -7,19 +7,10 @@ public class UserClass {
 //	it also being initialized through constructor call. 
 //	Print users name, mobile number and address in userDetails method.
 //	Test your code.
-	String name;
-	String mNumber;
-	UserClass(String name,String mNumber){
+	public String name;
+	public String mNumber;
+	public UserClass(String name,String mNumber){
 		this.name=name;
 		this.mNumber=mNumber;
 	}
-}
-public class UserInfo extends UserClass{
-	String userAddress;
-	public UserInfo(String name,String mNumber,String userAddress){
-		super(mNumber,name);
-		
-	}
-	
-	
 }
