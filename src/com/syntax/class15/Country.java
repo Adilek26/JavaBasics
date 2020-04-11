@@ -2,7 +2,7 @@ package com.syntax.class15;
 
 public class Country {
 
-	static String countries(String word) {
+	static String country(String word) {
 		String country = "";
 
 		switch (country) {
@@ -27,11 +27,13 @@ public class Country {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String ans;
-		ans.countries("Turkey");
-		ans.countries("Usa");
-		ans.countries("Mexico");
+		
+		Country ans=new Country();
+		
+		ans.country("Selam");
+		
+		ans.country("Usa");
+		ans.country("Mexico");
 
 	}
 

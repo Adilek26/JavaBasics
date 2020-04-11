@@ -9,10 +9,17 @@ public class Students {
 
 String studentName;
 int studentID, numberOfStudents;
+public void increment() {
+	System.out.println(numberOfStudents);
+}
 
 public static void main(String[] args) {
-	Student str=new Student;
-	str.studentName
+	Students str=new Students();
+	str.studentName="Tugba";
+	str.studentID=123454;
+	str.numberOfStudents=1;
+	str.increment();
+	
 }
 
 }
